@@ -1,15 +1,13 @@
 {
-  "name": "myapp",
-  "description": "A nextjs Hasura fullstack app template",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
   "private": true,
-  "engines": {
-    "node": "~18.16.0"
-  },
   "workspaces": [
-    "backend",
-    "frontend"
-  ]
+    "api",
+    "web"
+  ],
+  "description": "A nextjs Hasura fullstack app template",
+  "license": "MIT",
+  "engines": {
+    "node": "=18.x",
+    "yarn": ">=1.15"
+  }
 }

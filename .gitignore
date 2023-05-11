@@ -1,0 +1,48 @@
+# local env files
+.env*.local
+
+# Dependency directories and files
+node_modules
+
+# Yarn
+.yarn/*
+yarn-debug.log*
+yarn-error.log*
+
+# next.js
+**/.next/
+**/out/
+
+# vercel
+.vercel
+
+# production
+**/build/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# testing
+**/coverage
+
+# Logs
+**/logs/
+.log
+
+# Eslint cache
+.eslintcache
+
+# misc
+.DS_Store
+.Trashes
+Thumbs.db
+.fseventsd
+.Spotlight-V100
+.pem
+.pid.lock
+.pid
+.seed
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
