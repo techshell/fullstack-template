@@ -13,5 +13,14 @@ Next.js 13 and Hasura project template.
 
 ### Step 2 Connect Hasura to source database
 
+When starting from scratch:
+
 1. Set the env variable `PG_DATABASE_URL` appropriately. If you copied .env.example, this defaults to the posgres docker container installed with Hasura. Doesn't have to though!
 2. In the Hasura console, click the data tab then connect to existing database
+
+### Step 3 Apply Hasura Metadata
+
+When using the fully configured template:
+
+1. Run `yarn hasura metadata apply` to load the latest
+2. Login the the hasura console with `yarn hasura console` - any configuration or database changes will be tracked and can later be applied as migrations or metadata - more information in this doc https://hasura.io/docs/latest/migrations-metadata-seeds/overview/
